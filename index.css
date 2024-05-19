@@ -1,0 +1,68 @@
+*{
+    border:0px;
+    padding: 0px;
+    margin: 0px;
+   color: var(--day-color)
+}
+:root{
+    --day-backgroundcolor:rgb(188, 220, 237);
+    --day-color:black;
+    --day-border:rgb(24, 3, 3);
+}
+.main{
+    height: 100vh;
+    width: 100wh;
+    background-color: var(--day-backgroundcolor);
+}
+.submain{
+    border: 2px solid var(--day-border);
+    height: 8%;
+    display: flex;
+}
+.icon{
+    width: 50%;
+    height: 100%;
+    background-color: var(--day-backgroundcolor);
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+    padding-left: 1%;
+}
+.navi{
+    width: 50%;
+    background-color: var(--day-backgroundcolor);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.day{
+    background-color:  var(--day-backgroundcolor);
+    height: 40%;
+    width: 15%;
+    border-radius: 20px;
+    padding: 1%;
+    border: 2px solid blue;
+}
+.night{
+    width: 50%;
+    height: 100%;
+    color:rgb(99, 41, 41);
+    background-color: var(--day-backgroundcolor);
+    border-radius:20px ;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+span{
+    color: var(--day-color);
+}
+.common{
+    font-size: 150%;
+}
+.common:hover{
+    font-size: 200%;
+    cursor: pointer;
+}
